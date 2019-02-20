@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<title>rdp</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+<link href="./css/normalize.css" rel="stylesheet" type="text/css">
+<link href="./css/style.css" rel="stylesheet" type="text/css">
+
+<!-- Owl carousel CSS -->
+<link href="./css/owl.carousel.min.css" rel="stylesheet" type="text/css">
+<link href="./css/owl.theme.default.css" rel="stylesheet" type="text/css">
+
+<!-- Fancybox CSS-->
+<link href="./css/jquery.fancybox.min.css" rel="stylesheet" type="text/css">
+
+<script src="./js/jquery-3.3.1.min.js"></script>
+<script src="./js/script.js"></script>
+
+<!-- Owl carousel JS -->
+<script src="./js/owl.carousel.js"></script>
+
+<!-- Fancybox JS -->
+<script src="./js/jquery.fancybox.min.js"></script>
+</head>
+	<body>
+		<!-- Popup-form -->
+		<div class="form" id="popup-form">
+			<div class="form__inner">
+				<form action="" method="post">
+					<div class="form__row">
+						<input type="text" name="name" class="form__field" placeholder="ФИО" required>
+					</div>
+					<div class="form__row">
+						<input type="email" name="email" class="form__field" placeholder="Email" required>
+					</div>
+					<div class="form__row">
+						<textarea type="text" name="text" placeholder="Сообщение"></textarea>
+					</div>
+					<div class="form__button">
+						<button type="submit">Отправить</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		<!-- //Popup-form -->
+
+		<section class="header">
+			<div class="logo"><a href="#">Лого</a></div>
+			<div class="callback">
+				<a data-fancybox="" data-src="#popup-form" href="javascript:;">Связь с нами</a>
+			</div>
+		</section>
+		<section class="slider">
+			<div class="slider__wrapper">
+			<div class="slider__items owl-carousel">
+				<div class="slider__item">Текст</div>
+				<div class="slider__item">Текст</div>
+				<div class="slider__item">Текст</div>
+				<div class="slider__item">Текст</div>
+			</div>
+			</div>
+		</section>
+	</body>
+</html>
